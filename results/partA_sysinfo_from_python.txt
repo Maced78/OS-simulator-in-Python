@@ -1,0 +1,17 @@
+PID: 26033
+PPID: 26032
+CPU COUNT: 24
+Version and name: Linux-7.0.0-42-generic-x86_64-with-glibc2.43
+Current location: /home/akeo/oilfield
+PATH: /home/akeo/.local/bin
+PATH: /usr/local/sbin
+PATH: /usr/local/bin
+PATH: /usr/sbin
+PATH: /usr/bin
+PATH: /sbin
+PATH: /bin
+PATH: /usr/games
+PATH: /usr/local/games
+PATH: /snap/bin
+PATH: /snap/bin
+run_sysinfo PID: 26032
