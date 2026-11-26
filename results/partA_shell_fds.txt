@@ -1,0 +1,5 @@
+total 0
+lrwx------ 1 akeo akeo 64 Nov 26 15:44 0 -> /dev/pts/1
+lrwx------ 1 akeo akeo 64 Nov 26 15:44 1 -> /dev/pts/1
+lrwx------ 1 akeo akeo 64 Nov 26 15:44 2 -> /dev/pts/1
+lrwx------ 1 akeo akeo 64 Nov 26 15:44 255 -> /dev/pts/1
