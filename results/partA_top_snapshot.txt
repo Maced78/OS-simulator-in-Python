@@ -1,0 +1,15 @@
+top - 16:41:26 up  1:17,  1 user,  load average: 0.21, 0.31, 0.28
+Tasks: 479 total,   1 running, 478 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.1 us,  1.7 sy,  0.0 ni, 95.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31298.1 total,  22491.1 free,   5669.0 used,   5272.0 buff/cache     
+MiB Swap:   8192.0 total,   8192.0 free,      0.0 used.  25629.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   5745 akeo      20   0   15.0g 478168 239316 S  27.3   1.5   6:45.11 gnome-s+
+  17149 akeo      20   0 2964864 210240 145028 S  18.2   0.7   1:15.76 ptyxis
+  24710 akeo      20   0   13380   5800   3716 R   9.1   0.0   0:00.02 top
+      1 root      20   0   26940  17420  11120 S   0.0   0.1   0:02.59 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+

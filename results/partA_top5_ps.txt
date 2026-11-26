@@ -1,0 +1,6 @@
+    PID COMMAND         %CPU
+  24705 ps               100
+   5745 gnome-shell      8.9
+  15262 claude-desktop   7.3
+  14460 brave            3.9
+  14796 claude-desktop   2.6
