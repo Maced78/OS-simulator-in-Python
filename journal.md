@@ -21,14 +21,27 @@ End: about 17:28 (added on 27 Nov, I forgot to write it yesterday)
 
 
 
-Date is 27.11.2026 --> 13:50
+Date is 27.11.2026 --> 13:50 --> 15:30 First Session -- Second Session 19:06 --> 22:00
 
 What I did today:
 
-xxx
+Answered to questions of Task 1, researched about process state codes, like Ss, R+ and I<. 
+Then moved to Task 2, created a field.py , inside it I printed the PID and PPID's of every sensor, 
+then I created a random seed, so it made the readings of the pressure reproducible, and last added a queue and logger function , and a time() parameter to meausure the total runtime.
+
+There was a surprising thing that  about grep -c 19875 counts every line where the digits 19875 appear anywhere, not just in the PID column. One line from another sensor had those digits inside its timestamp, so grep counted 305 real lines plus 1 accidental match, giving 306. Searching for ", 19875, " only matches the PID column, so it gives exactly 305.
 
 What went wrong:
 
-xxx
+
+I created the random generator in the wrong place, and printed the generator object instead of a reading.
+
+I started the logger inside the for loop, so there were 6 loggers instead of 1. Then I called p2.start() twice.
+
+The logger first wrote STOP lines into the file, because the else was missing.
+
+Found that the sensors' parent was not the main process but the forkserver (Python 3.14). It was not an error, but it confused me at first.
+
+My first ps screenshot was taken before field.py was running, so it did not show the sensors.
 
 
