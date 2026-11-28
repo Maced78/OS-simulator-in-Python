@@ -1,0 +1,16 @@
+========== B2: WITHOUT LOCK ==========
+Run 1: Counter = 1771, Time = 0.0269 seconds
+Run 2: Counter = 1769, Time = 0.0288 seconds
+Run 3: Counter = 1743, Time = 0.0330 seconds
+Run 4: Counter = 1775, Time = 0.0350 seconds
+Run 5: Counter = 1780, Time = 0.0411 seconds
+========== B2: WITH LOCK ==========
+Run 1: Counter = 1830, Time = 0.0360 seconds
+Run 2: Counter = 1830, Time = 0.0268 seconds
+Run 3: Counter = 1830, Time = 0.0293 seconds
+Run 4: Counter = 1830, Time = 0.0272 seconds
+Run 5: Counter = 1830, Time = 0.0259 seconds
+========== FINAL RESULTS ==========
+Expected counter: 1830
+Average without Lock: 0.0330 seconds
+Average with Lock:    0.0291 seconds

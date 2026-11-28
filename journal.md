@@ -35,13 +35,14 @@ What went wrong:
 
 
 I created the random generator in the wrong place, and printed the generator object instead of a reading.
-
 I started the logger inside the for loop, so there were 6 loggers instead of 1. Then I called p2.start() twice.
-
 The logger first wrote STOP lines into the file, because the else was missing.
-
 Found that the sensors' parent was not the main process but the forkserver (Python 3.14). It was not an error, but it confused me at first.
-
 My first ps screenshot was taken before field.py was running, so it did not show the sensors.
 
 
+Date is 28.11.2026 --> 13:23 --> 
+
+What I did today:
+
+What went wrong:
