@@ -24,4 +24,24 @@ My prediction: With a Lock, I think the final value will be the similar to witho
 
 My prediction: I think the Lock version will be slower, because the sensors have to wait.
 
+Result:
 
+The actual results mostly matched my predictions. Without a Lock, the counter values were sometimes different because simultaneous increments could be lost, while with a Lock, all five runs produced exactly 1830; the Lock version was also slightly slower because processes had to wait for access to the shared counter.
+
+## Part B3 – Watchdog (written before the code)
+
+**Q1. Will the restarted sensor 2 have the same PID as the crashed one? Why?**
+
+My prediction: I think the PID will change, because it will be a new process.
+
+**Q2. Who will be the parent (PPID) of the restarted sensor 2?**
+
+My prediction: I think the parent will be forkserver, because in B1 we observed similar situation.
+
+**Q3. What exit code will the crashed sensor have, compared to a normal sensor?**
+
+My prediction: I think the crashed sensor will have non-zero, while a normal one has zero, because it raises an exception.
+
+**Q4. How many lines will field.log have at the end? Why?**
+
+My prediction: I think field.log will have still 1830 lines, because the restarted sensor 2 will continue from the next reading.
